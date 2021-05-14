@@ -25,7 +25,7 @@
   tab        q    w    e    r    t    y    u    i    o    p    [    ]
   caps       a    s    d    f    g    h    j    k    l    ;    '    \ ret
   lsft  grv  z    x    c    v    b    n    m    ,    .    /    rsft up
-  fn   lctl  lalt lmet           spc            rmet ralt left down rght
+  fn   lctl  lalt lmet           spc            rmet ralt      left down rght
 )
 
 (deflayer level1
@@ -34,7 +34,7 @@
   tab        j    d    u    a    x    p    h    l    m    w    ß    rctl
   @lv3       @cs  @t3  @i4  e    o    b    n    @r4  @s3  @gs  q    @lv3 ret
   @lv2 _     f    v    @ü   @ä   @ö   @y   @z   ,    .    k    @lv2 _
-  @fn  lctl  lalt lmet          spc             @lv4 ralt _    _    _
+  @fn  lctl  lalt lmet          spc             @lv4 ralt      _    _    _
 )
 
 (deflayer level2
@@ -43,8 +43,8 @@
               !    "    §    $    %    &    /    \(   \)   =     ?     rctl
   S-tab       J    D    U    A    X    P    H    L    M    W     ẞ     ´
   @lv5        C    T    I    E    O    B    N    R    S    G     Q     @lv5 S-ret
-  XX   _      F    V    Ü    Ä    Ö    S-@y S-@z    -    •    K    XX   _
-  @fn  lctl   lalt lmet          spc           S-@lv4 ralt _    _    _
+  XX   _      F    V    Ü    Ä    Ö    S-@y S-@z    -    •    K  XX    S-up
+  @fn  lctl   lalt S-lmet         spc           S-@lv4 ralt      S-left S-down S-rght
 )
 
 (deflayer level3
@@ -52,15 +52,15 @@
              ¹    ²    ³    ›    ‹    ¢    ¥    ‚    ‘    ’    _    _
   _          @…   @\_  @[   @]   @^   @!   @<   @>   @=   @&   @€   /
   XX         @bsl @/   @{   @}   @*   @?   @kau @kzu @-   @:   @@   XX A-ret
-  @lv5 _     @#   @$   @|   @~   @`   @+   @%   @dqu @'   @;   @lv5 _
-  _    _     _    _              _              @lv6 _    _    _    _
+  @lv5 _     @#   @$   @|   @~   @`   @+   @%   @dqu @'   @;   @lv5 M-up
+  _    _     _    _              _              @lv6 _    M-left M-down M-right
 )
 
 (deflayer level4
             M-f1 M-f2 M-f3 M-f4 M-f5 M-f6 M-f7 M-f8 M-f9 M-f10 M-f11 M-f12
             ¹    ²    ³    ›    ‹    ¢    ¥    ‚    ‘    ’    _    _
-  _         pgup bspc up   del  pgdn _    7    8    9    +    -    "
-  lalt      home lft  down rght end  _    4    5    6    ,    .    lctl M-ret
+  _         pgup bspc up   del  pgdn _    7    8    9    +    -    rctl
+  lalt      home lft  down rght end  _    4    5    6    ,    .    ralt M-ret
   lsft XX   esc  tab  ins  ret  f1   :    1    2    3    ;    rsft _
   _    _    _    _              0              XX   _    _    _    _
 )
