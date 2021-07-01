@@ -34,7 +34,7 @@
   tab        j    d    u    a    x    p    h    l    m    w    ß    rctl
   @lv3       @cs  @t3  @i4  e    o    b    n    @r4  @s3  @gs  q    @lv3 ret
   @lv2 _     f    v    @ü   @ä   @ö   @y   @z   ,    .    k    @lv2 _
-  @fn  lctl  lalt lmet          spc             @lv4 ralt      _    _    _
+  @fn  lctl  @alt lmet          spc             @lv4 ralt      _    _    _
 )
 
 (deflayer level2
@@ -102,6 +102,14 @@
   _   _     _    _              _              _    _    _    _    _
 )
 
+(deflayer alt
+             _    _    _    _    _    _    _    _    _    _    _    _
+             1    2    3    4    5    6    7    8    9    0    -    =
+  tab        A-j  A-d  A-u  A-a  A-x  A-p  h    A-l  A-m  A-w  ß    rctl
+  _          A-c  A-t  A-i  A-e  A-o  A-b  A-n  A-r  A-s  A-g  A-q  @lv3 ret
+  _    _     A-f  A-v  A-ü  A-ä  A-ö  A-y  A-z  A-,  A-.  A-k    @lv2 _
+  @fn  lctl  @alt lmet          spc             @lv4 ralt      _    _    _
+)
 (deflayer qwertz
            _    _    _    _    _    _    _    _    _    _    _    _
            1    2    3    4    5    6    7    8    9    0    ß    apos
@@ -144,6 +152,7 @@
   lv4 (layer-toggle level4)
   lv5 (layer-toggle level5)
   lv6 (layer-toggle level6)
+  alt (layer-toggle alt)
 )
 
 (defalias
